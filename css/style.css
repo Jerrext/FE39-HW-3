@@ -1,0 +1,276 @@
+/*--------------------
+-------fonts--------
+--------------------*/
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Regular.eot');
+    src: url('Quicksand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Regular.woff2') format('woff2'),
+        url('Quicksand-Regular.woff') format('woff'),
+        url('Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Light.eot');
+    src: url('Quicksand-Light.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Light.woff2') format('woff2'),
+        url('Quicksand-Light.woff') format('woff'),
+        url('Quicksand-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.eot');
+    src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Medium.eot');
+    src: url('Quicksand-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Medium.woff2') format('woff2'),
+        url('Quicksand-Medium.woff') format('woff'),
+        url('Quicksand-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Bold.eot');
+    src: url('Quicksand-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Bold.woff2') format('woff2'),
+        url('Quicksand-Bold.woff') format('woff'),
+        url('Quicksand-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-SemiBold.eot');
+    src: url('OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-SemiBold.woff2') format('woff2'),
+        url('OpenSans-SemiBold.woff') format('woff'),
+        url('OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.eot');
+    src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff'),
+        url('OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.eot');
+    src: url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff'),
+        url('Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*--------------------
+--------reset--------
+--------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----------------------*/
+
+:root {
+    font-size: max(0.93vw, 14px);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.93em;
+}
+
+.qs-l {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.qs-r {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.qs-m {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.qs-b {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.rob-m {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.os-sb {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.os-b {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+/*--------------------
+--------header--------
+--------------------*/
+
+.hf__container {
+    margin: 0 auto;
+    max-width: 88.57em;
+    padding: 0 1.21em;
+}
+
+.hf__wrapper {
+    display: flex;
+    padding: 1.36em 0;
+    justify-content: space-between;
+}
+
+.hf__left {
+    display: flex;
+}
+
+.hf__right {
+    display: flex;
+}
+
+.hf__logo {
+    width: 1.86em;
+    height: 1.86em;
+    border-radius: 50%;
+    background-color: #5e81fe;
+    margin: 0.57em 5.21em 0 0;
+}
+
+.hf__nav-list {
+    display: flex;
+}
+
+.hf__nav-list > li {
+    margin: 0.57em 3em 0 0;
+}
+
+.hf__nav-list > li:last-child {
+    margin-right: 0;
+}
+
+.link {
+    font-size: 0.86em;
+    line-height: 1.25em;
+    color: #697ca6;
+    transition: .3s;
+}
+
+.link:hover {
+    color: #5e81fe;
+}
+
+.hf__social {
+    display: flex;
+    width: 10.86em;
+    justify-content: space-between;
+    margin-top: 0.78em;
+}
+
+.social__link {
+    transition: .3s;
+}
+
+.social__link:hover path {
+    fill: #6188FF;
+}
+
+.btn_text-blue {
+    display: block;
+    font-size: 0.93em;
+    width: 8.69em;
+    color: #3A79FF;
+    background-color: #d2e1ff;
+    line-height: 3.31em;
+    text-align: center;
+    margin-left: 3.38em;
+}
